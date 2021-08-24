@@ -5,6 +5,7 @@ cons="qwrtypsdfghjklmnbvczx"
 solution=dict()
 for i in range (len(inp)):
     line=inp[i]
+    line=line.lower()
     v,c=0,0
     for letter in line:
         if letter in vowels:
